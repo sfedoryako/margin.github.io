@@ -4,18 +4,14 @@ body {
     margin: 0;
     overflow: auto;
     background: #ECBB11;
-
-
-
+    background-image: url(background.png);
+    background-repeat: repeat;
 }
-
-
-
-
 
 a {
     text-decoration: none;
     color: black;
+
 }
 .name_box {
     border-radius: 10px;
@@ -34,14 +30,10 @@ a {
 .name {
     font-size: 14px ;
     text-decoration: none;
-    display: block;
-
-    position: absolute;
-    top: -6px;
-    right: 48px;
-    bottom: 10px;
-    left: 48px;
-    margin: auto;
+    display: flex;
+    margin-top: -6px;
+    align-items: center;
+    justify-content: center;
 }
 .box {
     position: absolute;
